@@ -156,6 +156,54 @@ p{
     transition: width 0.3s ease;
 }
 
+/* End Screen Styles */
+
+.result-score{
+  margin-bottom: auto;
+}
+
+.result-score p{
+    font-size: 1.5rem;
+    margin-bottom: auto;
+    color: #333;
+}
+
+.result-score span{
+    font-weight: bold;
+    color: #e9b066ff;
+}
+
+.result-score div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    color: #666;
+    margin-top: 40px;
+    background-color: #f5e1c3;
+    width: 100%;
+    height: 90px;
+    color: #333;
+}
+
+#restart-btn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #e9b066ff;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+#restart-btn:hover {
+    background-color: #996929cc;
+    color: #ffffff;
+}
+
 /* Responsive Design */
 
 @media (max-width: 1024px) {
