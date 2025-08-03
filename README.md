@@ -57,7 +57,7 @@
 <p align="left">1. Faça o clone do projeto:</p>
 
 ``` bash
-ldjhgd
+https://github.com/joao-enrique/Quiz-game.git
 ```
 
 ###
