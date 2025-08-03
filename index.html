@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz game</title>
+</head>
+<body>
+    <div class="screen active" id="start-screen">
+        <h1>QUIZ GAMER!</h1>
+        <p>Se você é gamer têm obrigação de passar deste quiz</p>
+        <button id="start-btn">Começar</button>
+    </div>
+
+    <div class="screen" id="quiz-screen">
+        <h2 id="question">PERGUNTA</h2>
+        <div class="info-quiz">
+            <p>
+                Questão <span class="current-question">0</span> de <span class="total-questions">10</span>
+            </p>
+
+            <p>Score: <span id="score">0</span></p>
+        </div>
+
+        <div id="anwers-container" class="anwers-container"></div>
+
+        <div class="progress-bar">
+            <div id="progress" class="progress"></div>
+        </div>
+    </div>
+
+    <div class="screen" id="end-screen">
+        <h1>Fim do quiz!</h1>
+        <div class="result-score">
+            <p>Você acertou <span id="score-end">0</span> de <span class="total-questions-end">10</span> questões.</p>
+            <div id="result-message">Muito bem!</div>
+        </div>
+        <button id="restart-btn">Recomeçar</button>
+</body>
+</html>
