@@ -189,7 +189,7 @@ p{
 
 #restart-btn {
     width: 200px;
-    height: 40px;
+    height: 50px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -222,6 +222,25 @@ p{
         width: 200px;
         height: 35px;
     }
+    #quiz-screen {
+        width: 80%;
+        height: 80%;
+    }
+
+    .result-score p{
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+
+    .result-score div{
+        height: 70px;
+    }
+
+    #restart-btn {
+        width: 300px;
+        height: 40px;
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -237,6 +256,17 @@ p{
         width: 150px;
         height: 30px;
         font-size: 0.7rem;
+    }
+
+    .result-score p{
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+    #restart-btn {
+        width: 160px;
+        height: 40px;
+        font-size: 1rem;
     }
 }
 
@@ -269,5 +299,20 @@ p{
         width: 90px;
         height: 20px;
         font-size: 0.4rem;
+    }
+    #quiz-screen {
+        width: 90%;
+        height: 90%;
+    }
+
+    .result-score p{
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+
+    #restart-btn {
+        width: 120px;
+        height: 40px;
+        font-size: 1rem;
     }
 }
