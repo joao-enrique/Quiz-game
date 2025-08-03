@@ -41,6 +41,16 @@ p{
     margin-bottom: auto;
 }
 
+button.correct {
+    background-color: #4CAF50 !important; /* Verde */
+    color: white;
+}
+
+button.wrong {
+    background-color: #F44336 !important; /* Vermelho */
+    color: white;
+}
+
 .screen.active{
     display: flex;
 }
