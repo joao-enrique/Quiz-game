@@ -16,7 +16,7 @@
         <button id="start-btn">Começar</button>
     </div>
 
-    <div class="screen active" id="quiz-screen">
+    <div class="screen" id="quiz-screen">
         <h2 id="question">PERGUNTA</h2>
         <div class="info-quiz">
             <p>
@@ -26,19 +26,25 @@
             <p>Score: <span id="score">0</span></p>
         </div>
 
-        <div id="anwers-container" class="anwers-container"></div>
+        <div id="anwers-container" class="anwers-container">
+            <button>Minecraft</button>
+            <button>GTA V</button>
+            <button>Tetris</button>
+            <button>Fortnite</button>
+        </div>
 
         <div class="progress-bar">
             <div id="progress" class="progress"></div>
         </div>
     </div>
 
-    <div class="screen" id="end-screen">
+    <div class="screen active" id="end-screen">
         <h1>Fim do quiz!</h1>
         <div class="result-score">
             <p>Você acertou <span id="score-end">0</span> de <span class="total-questions-end">10</span> questões.</p>
             <div id="result-message">Muito bem!</div>
         </div>
         <button id="restart-btn">Recomeçar</button>
+    </div>
 </body>
 </html>
