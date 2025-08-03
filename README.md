@@ -4,6 +4,8 @@
 
 <img src="quiz-preview.png"/>
 
+<h4 align="center"><a href="joao-enrique.github.io/Quiz-game/">Confira o projeto aqui</a></h4>
+
 👾 Bem-vindo ao **Quiz Retrô** — um minigame nostálgico em forma de quiz, com perguntas clássicas do mundo dos games! Teste seus conhecimentos e veja se você é um verdadeiro mestre dos consoles antigos! 🚀
 
 ###
